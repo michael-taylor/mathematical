@@ -18,3 +18,6 @@
 NOTE: Installing the plain **cmake** package with pacman will result in build errors when building
 this package. That version of CMake doesn't understand Windows paths and will prepend the current 
 build directory to the CFLAGs include directories.
+
+WARNING: As of now PNG output doesn't seem to work, however, SVG output does. So, when using 
+AsciiDoctor, make sure to use the CLI parameter `-a mathematical-format=svg`.
