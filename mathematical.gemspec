@@ -27,4 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency("minitest", "~> 5.6")
   spec.add_development_dependency("nokogiri", "~> 1.10")
   spec.add_development_dependency("rake-compiler", "~> 1.0")
+  spec.add_development_dependency("benchmark", "~> 0.1.1")
 end
